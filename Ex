@@ -1,0 +1,56 @@
+public static void main(String[] args){
+Animal ani = new Animal();
+ani.name = "멍멍이";
+System.out.println("이름 : " + ani.name);
+
+ani.age = 3;
+System.out.println("나이 : " + ani.age);
+ani.cry();
+
+System.out.println("----------------------------------");
+
+Animal ani2 = new Animal();
+ani2.name = "냐옹이";
+ani2.age = 2;
+System.out.println("이름 : " + ani2.name);
+System.out.println("나이 : " + ani2.age);
+ani2.cry();
+
+System.out.println("=================================");
+
+Car car = new Car();
+
+car.company = "현대";
+car.modeName = "그랜저";
+car.cc = 3000;
+System.out.println("제조사 : " + car.company);
+System.out.println("모델명 : " + car.modelName);
+System.out.println("배기량 : " + car.cc);
+
+car.speedUp();
+car.speedDown();
+
+System.out.println("===============================");
+
+Student s1 = new Stendent();
+s1.name = "홍길동";
+s1.id = 1;
+s1.calssName = "핀테크 디지털 금융서비스 자바 개발자";
+System.out.println("이름 : " + s1.name)';
+System.out.println("번호 : " + s1.id);
+System.out.println("과정명 : " s1.className);
+
+Student s2 = new Student();
+s2.name = "강진석";
+s2.id = 2;
+s2.className = "핀테크 디지털 금융서비스 자바 개발자";
+System.out.println("이름 : " + s2.name);
+System/out.println("번호 : " + s2.id);
+System.out.println("과정명 : " + s2.classSName);
+}
+
+lass Student {
+  String name;
+  int id;
+  String className;
+}
